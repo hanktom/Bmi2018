@@ -10,10 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weight"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/weight"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="24dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/ed_weight"
@@ -29,7 +31,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Height"
+        android:text="@string/height"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="@+id/ed_weight"
         app:layout_constraintTop_toBottomOf="@+id/ed_weight" />
@@ -51,16 +53,16 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="bmi"
-        android:text="Calculate BMI"
+        android:text="@string/calculate_bmi"
         app:layout_constraintStart_toStartOf="@+id/ed_height"
         app:layout_constraintTop_toBottomOf="@+id/ed_height" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Help"
+        android:text="@string/help"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 </android.support.constraint.ConstraintLayout>

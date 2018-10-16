@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bmi</string>
+    <string name="weight">體重</string>
+    <string name="height">身高</string>
+    <string name="ok">確認</string>
+</resources>
